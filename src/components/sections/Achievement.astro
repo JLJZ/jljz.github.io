@@ -6,11 +6,14 @@ import type { Certificates } from "@/data/cv"
 const certificates = certificateData as Certificates[]
 ---
 
-<Section title="Certifcation">
+<Section title="Certifications">
   <ul>
     {
-      cert.map(({ title, date, awarder, summary }) => {
-        const year = new Date(date).getFullYear()
+      certificates.map(({ name, startDate, endDate, issuer, url }) => {
+        const startYear = new Date(startDate).getFullYear()
+        const endYear =
+          endDate != null ? new Date(endDate).getFullYear() : "Present"
+        const years = `${startYear} - ${endYear}`
 
         return (
           <li>
@@ -18,16 +21,15 @@ const certificates = certificateData as Certificates[]
               <header>
                 <div>
                   <h3>
-                    <a href={url} title={`Goto ${institution} site`} target="_blank">{institution}</a>
+                    <a href={url} title={`Go to ${name}`} target="_blank">{name}</a>
                   </h3>
                 </div>
 
-                <time>{years}</time>
+                <time>{startYear}-{endYear}</time>
               </header>
 
               <footer>
-                <p>{studyType && `${studyType}, `}{area}</p>
-                {score && <p>{score}</p>}
+                <p>{issuer}</p>
               </footer>
             </article>
           </li>

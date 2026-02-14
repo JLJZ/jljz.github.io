@@ -163,7 +163,8 @@
   "certificates": [
     {
       "name": "AWS Certified Solutions Architect - Associate",
-      "date": "2025",
+      "startDate": "2025",
+      "endDate": "2028",
       "issuer": "Amazon Web Services",
       "url": "https://www.credly.com/badges/5e9f8f5f-9a3c-45f2-bd5a-d8df666cbe3b"
     }

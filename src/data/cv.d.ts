@@ -80,7 +80,8 @@ interface Awards {
 
 interface Certificates {
   name: string;
-  date: DateStr;
+  startDate: DateStr;
+  endDate: DateStr;
   issuer: string;
   url?: string;
 }
