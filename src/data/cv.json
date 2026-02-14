@@ -50,7 +50,7 @@
       "position": "Machine Learning Engineer",
       "startDate": "2024-06-01",
       "endDate": "2024-08-01",
-      "summary": "- Developed in-house news sentiment analysis system processing ~60GB of unstructured text daily using Python, Scikit-learn, Polars, and Streamlit.\n- Automated keyword extraction and reporting workflows, reducing report generation time from 12 hours to 1 hour.\n- Optimized data pipelines by parallelising downloads and injestion, achieving 5x performance improvement.",
+      "summary": "- Developed in-house news sentiment analysis system processing ~60GB of unstructured text daily using Python, Scikit-learn, Polars, and Streamlit.\n- Automated keyword extraction and reporting workflows, reducing report generation time from 12 hours to 1 hour.\n- Optimized data pipelines by parallelising downloads and ingestion, achieving x5 performance improvement.",
       "url": "https://www.dis.gov.sg"
     },
     {
