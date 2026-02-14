@@ -35,7 +35,7 @@ const projects = projectsData as Projects[]
                     )}
                   </h3>
 
-                  {description.split("\n").map(x => <p>{x}</p>)}
+                  {description && description.split("\n").map(x => <p>{x}</p>)}
                 </header>
                 <footer>
                   {highlights.map((highlight) => {
