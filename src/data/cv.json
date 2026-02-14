@@ -245,6 +245,12 @@
         "Docker",
         "Linux"
       ]
+    },
+    {
+      "name": "Itch.io Page",
+      "description": "Collection of games and mixed reality simulators released on itch.io.",
+      "url": "https://jinzh.itch.io",
+      "highlights": ["Unity", "C#"]
     }
   ]
 }
