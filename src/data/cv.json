@@ -50,7 +50,7 @@
       "position": "Machine Learning Engineer",
       "startDate": "2024-06-01",
       "endDate": "2024-08-01",
-      "summary": "- Developed in-house news sentiment analysis system processing ~60GB of unstructured text daily using Python, Scikit-learn, Polars, and Streamlit.\n- Automated keyword extraction and reporting workflows, reducing report generation time from 12 hours to 1 hour.\n- Optimized data pipelines by parallelising downloads and ingestion, achieving x5 performance improvement.",
+      "summary": "- Developed in-house news sentiment analysis system processing ~60GB of unstructured text daily using Python, Scikit-learn, Polars, and Streamlit.\n- Automated keyword extraction and reporting workflows, reducing report generation time from 12 hours to 1 hour.\n- Optimised data pipelines by parallelising downloads and ingestion, achieving x5 performance improvement.",
       "url": "https://www.dis.gov.sg"
     },
     {
@@ -198,7 +198,7 @@
     },
     {
       "name": "AmazoBank - Cloud Native CRM (SMU)",
-      "description": "AWS cloud-native CRM supporting 100 concurrent users with <5s latency.\n- Architected ECS, RDS, ALB, S3, and Lambda infrastructure.\n- Built OIDC-based federated authentication with Spring Boot and React.\n- Implemented GitHub Actions CI/CD reducing production bugs by 30%.\n- Optimized infrastructure sizing reducing projected cost by 300%.",
+      "description": "AWS cloud-native CRM supporting 100 concurrent users with <5s latency.\n- Architected ECS, RDS, ALB, S3, and Lambda infrastructure.\n- Built OIDC-based federated authentication with Spring Boot and React.\n- Implemented GitHub Actions CI/CD reducing production bugs by 30%.\n- Optimised infrastructure sizing reducing projected cost by 300%.",
       "startDate": "2025-08-01",
       "endDate": "2025-11-01",
       "highlights": [
@@ -213,7 +213,7 @@
     },
     {
       "name": "DonDonDevops - Payment Kiosk Webapp (SMU)",
-      "description": "Containerized microservices-based payment kiosk system deployed to AWS.\n- Orchestrated FastAPI and Spring Boot services with Docker.\n- Reduced build-test-deploy cycle to under 1 minute.\n- Integrated Stripe webhooks achieving 95% transaction reliability.",
+      "description": "Containerised microservices-based payment kiosk system deployed to AWS.\n- Orchestrated FastAPI and Spring Boot services with Docker.\n- Reduced build-test-deploy cycle to under 1 minute.\n- Integrated Stripe webhooks achieving 95% transaction reliability.",
       "startDate": "2025-08-01",
       "endDate": "2025-11-01",
       "highlights": [
@@ -228,7 +228,7 @@
     },
     {
       "name": "Seoul Medical - Clinic Listing Web Application (SMU)",
-      "description": "Full-stack TypeScript clinic directory platform with usability-optimized design.\n- Built with Next.js, Express.js and PostgreSQL (Supabase).\n- Deployed production-grade environment on Vercel.\n- Achieved 80% user satisfaction in structured usability testing.",
+      "description": "Full-stack TypeScript clinic directory platform with usability-optimised design.\n- Built with Next.js, Express.js and PostgreSQL (Supabase).\n- Deployed production-grade environment on Vercel.\n- Achieved 80% user satisfaction in structured usability testing.",
       "startDate": "2025-01-01",
       "endDate": "2025-05-01",
       "highlights": [
@@ -243,7 +243,7 @@
     },
     {
       "name": "Project FAST - Fire and Safety Training VR Simulator (SP)",
-      "description": "Multiplayer VR training simulator with synchronized networking architecture.\n- Implemented host-authoritative networking model using Unity Mirror Networking.\n- Achieved <50ms multiplayer latency over VPN.",
+      "description": "Multiplayer VR training simulator with synchronised networking architecture.\n- Implemented host-authoritative networking model using Unity Mirror Networking.\n- Achieved <50ms multiplayer latency over VPN.",
       "startDate": "2025-01-01",
       "endDate": "2025-05-01",
       "highlights": [
