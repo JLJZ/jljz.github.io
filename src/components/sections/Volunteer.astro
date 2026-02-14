@@ -5,7 +5,7 @@ import type { Volunteer } from "@/data/cv"
 const volunteer = volunteerData as Volunteer[]
 ---
 
-{ volunteer && <Section title="Volunteer">
+{ volunteer.length > 0 && <Section title="Volunteer">
   <ul>
     {
       volunteer.map(
