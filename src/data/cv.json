@@ -90,67 +90,34 @@
     }
   ],
   "skills": [
-    { "name": "Android", "level": "Advanced", "keywords": ["Android"] },
+    { "name": "Android", "level": "Intermediate", "keywords": ["Android"] },
     { "name": "AWS", "level": "Intermediate", "keywords": ["AWS"] },
     { "name": "C", "level": "Intermediate", "keywords": ["C"] },
     { "name": "CPlusPlus", "level": "Intermediate", "keywords": ["CPlusPlus"] },
     { "name": "CSharp", "level": "Advanced", "keywords": ["CSharp"] },
-    {
-      "name": "Docker",
-      "level": "Intermediate",
-      "keywords": ["Docker", "Kubernetes"]
-    },
-    {
-      "name": "FastAPI",
-      "level": "Intermediate",
-      "keywords": ["FastAPI"]
-    },
+    { "name": "Docker", "level": "Intermediate", "keywords": ["Docker", "Kubernetes"] },
+    { "name": "FastAPI", "level": "Intermediate", "keywords": ["FastAPI"] },
     { "name": "Flask", "level": "Intermediate", "keywords": ["Flask"] },
-    {
-      "name": "Git",
-      "level": "Advanced",
-      "keywords": ["Git", "Asana", "Jira", "Trello"]
-    },
-    {
-      "name": "GitHub Actions",
-      "level": "Intermediate",
-      "keywords": ["GitHub Actions", "GitHub"]
-    },
+    { "name": "Git", "level": "Advanced", "keywords": ["Git", "Asana", "Jira", "Trello"] },
+    { "name": "GitHub Actions", "level": "Intermediate", "keywords": ["GitHub Actions", "GitHub"] },
     { "name": "Java", "level": "Advanced", "keywords": ["Java"] },
     { "name": "JavaScript", "level": "Intermediate", "keywords": ["JavaScript"] },
     { "name": "Jetpack Compose", "level": "Intermediate", "keywords": ["Jetpack Compose"] },
     { "name": "Kotlin", "level": "Intermediate", "keywords": ["Kotlin"] },
-    {
-      "name": "Linux",
-      "level": "Advanced",
-      "keywords": ["Linux", "Windows"]
-    },
+    { "name": "Linux", "level": "Intermediate", "keywords": ["Linux"] },
     { "name": "Lua", "level": "Advanced", "keywords": ["Lua"] },
-    { "name": "MongoDB", "level": "Advanced", "keywords": ["MongoDB"] },
-    {
-      "name": "MySQL/MariaDB",
-      "level": "Advanced",
-      "keywords": ["MySQL", "MariaDB"]
-    },
+    { "name": "MongoDB", "level": "Intermediate", "keywords": ["MongoDB"] },
+    { "name": "MySQL/MariaDB", "level": "Intermediate", "keywords": ["MySQL", "MariaDB"] },
     { "name": "Next.js", "level": "Intermediate", "keywords": ["Next.js", "React"] },
-    {
-      "name": "PostgreSQL",
-      "level": "Advanced",
-      "keywords": ["PostgreSQL"]
-    },
-    {
-      "name": "Spring Boot",
-      "level": "Advanced",
-      "keywords": ["Spring"]
-    },
-    {
-      "name": "Express.js",
-      "level": "Intermediate",
-      "keywords": ["Express"]
-    },
+    { "name": "PostgreSQL", "level": "Advanced", "keywords": ["PostgreSQL"] },
+    { "name": "Spring Boot", "level": "Advanced", "keywords": ["Spring"] },
+    { "name": "Express.js", "level": "Intermediate", "keywords": ["Express"] },
     { "name": "TypeScript", "level": "Intermediate", "keywords": ["TypeScript"] },
     { "name": "Unity", "level": "Advanced", "keywords": ["Unity"] },
-    { "name": "Python", "level": "Advanced", "keywords": ["Python"] }
+    { "name": "Unreal", "level": "Intermediate", "keywords": ["Unreal"] },
+    { "name": "Python", "level": "Advanced", "keywords": ["Python"] },
+    { "name": "Pandas", "level": "Intermediate", "keywords": ["Pandas"] },
+    { "name": "Windows", "level": "Advanced", "keywords": ["Windows"] }
   ],
   "awards": [
     {
@@ -198,7 +165,7 @@
     },
     {
       "name": "AmazoBank - Cloud Native CRM (SMU)",
-      "description": "AWS cloud-native CRM supporting 100 concurrent users with <5s latency.\n- Architected ECS, RDS, ALB, S3, and Lambda infrastructure.\n- Built OIDC-based federated authentication with Spring Boot and React.\n- Implemented GitHub Actions CI/CD reducing production bugs by 30%.\n- Optimised infrastructure sizing reducing projected cost by 300%.",
+      "description": "AWS cloud-native CRM supporting 100 concurrent users with <5s latency.\n- Architected ECS, RDS, ALB, S3, and Lambda infrastructure.\n- Built OIDC-based federated authentication with Spring Boot and React.\n- Implemented GitHub Actions CI/CD reducing production bugs by 30%.\n- Optimised infrastructure sizing, reducing projected cost by 300%.",
       "startDate": "2025-08-01",
       "endDate": "2025-11-01",
       "highlights": [

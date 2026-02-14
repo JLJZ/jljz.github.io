@@ -41,6 +41,7 @@ export const SKILL_ICON_MAP = {
   docker: 'devicon:docker',
   aws: 'devicon:amazonwebservices',
   android: 'devicon:android',
+  windows: 'devicon:windows11',
 
   // Databases
   mysql: 'devicon:mysql',
@@ -59,7 +60,7 @@ export const SKILL_ICON_MAP = {
   jupyter: 'devicon:jupyter',
   julia: 'devicon:julia',
   r: 'devicon:r',
-  pandas: 'deicon:pandas',
+  pandas: 'devicon:pandas',
   numpy: 'devicon:numpy',
 
   // Creative / Interdisciplinary
@@ -71,6 +72,7 @@ export const SKILL_ICON_MAP = {
   figma: 'devicon:figma',
   blender: 'devicon:blender',
   unity: 'devicon:unity',
+  unrealengine: 'devicon:unrealengine',
 
 };
 
@@ -82,7 +84,8 @@ const ALIASES = {
   'reactjs': 'react',
   'js': 'javascript',
   'ts': 'typescript',
-  'x' : 'twitter'
+  'x' : 'twitter',
+  'unreal' : 'unrealengine'
 };
 
 export function getIconName(name) {
