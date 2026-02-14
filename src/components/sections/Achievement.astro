@@ -1,0 +1,78 @@
+---
+import Section from "../Section.astro"
+
+import { certificates as certificateData } from "@cv"
+import type { Certificates } from "@/data/cv"
+const certificates = certificateData as Certificates[]
+---
+
+<Section title="Certifcation">
+  <ul>
+    {
+      cert.map(({ title, date, awarder, summary }) => {
+        const year = new Date(date).getFullYear()
+
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>
+                    <a href={url} title={`Goto ${institution} site`} target="_blank">{institution}</a>
+                  </h3>
+                </div>
+
+                <time>{years}</time>
+              </header>
+
+              <footer>
+                <p>{studyType && `${studyType}, `}{area}</p>
+                {score && <p>{score}</p>}
+              </footer>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  article a {
+    color: #111;
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+    min-width: 102px;
+  }
+
+  @media (width <= 700px) {
+    time {
+      text-align: right;
+    }
+  }
+</style>
