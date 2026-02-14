@@ -221,7 +221,7 @@
     },
     {
       "name": "Seoul Medical - Clinic Listing Web Application (SMU)",
-      "description": "Full-stack TypeScript clinic directory platform with usability-optimized design.\n- Built with Express.js and PostgreSQL (Supabase).\n- Deployed production-grade environment on Vercel.\n- Achieved 80% user satisfaction in structured usability testing.",
+      "description": "Full-stack TypeScript clinic directory platform with usability-optimized design.\n- Built with Next.js, Express.js and PostgreSQL (Supabase).\n- Deployed production-grade environment on Vercel.\n- Achieved 80% user satisfaction in structured usability testing.",
       "startDate": "2025-01-01",
       "endDate": "2025-05-01",
       "highlights": [
@@ -230,6 +230,7 @@
         "PostgreSQL",
         "SupaBase",
         "React",
+        "Next.js",
         "Express.js"
       ]
     },
@@ -240,7 +241,7 @@
       "endDate": "2025-05-01",
       "highlights": [
         "Unity",
-        "CSharp",
+        "C#",
         "Docker",
         "Linux"
       ]
