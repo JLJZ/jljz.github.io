@@ -7,7 +7,8 @@ export const PROFILE_ICON_MAP = {
   instagram: 'simple-icons:instagram',
   spotify: 'simple-icons:spotify',
   bluesky: 'simple-icons:bluesky',
-  tiktok: 'simple-icons:tiktok'
+  tiktok: 'simple-icons:tiktok',
+  itchio: 'simple-icons:itchdotio'
 }
 
 const ALIASES = {
@@ -25,4 +26,3 @@ export function getIconName(name) {
 
   return PROFILE_ICON_MAP[name] ?? null;
 }
-  

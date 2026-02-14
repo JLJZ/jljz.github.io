@@ -5,7 +5,7 @@ import type { Volunteer } from "@/data/cv"
 const volunteer = volunteerData as Volunteer[]
 ---
 
-<Section title="Volunteer">
+{ volunteer && <Section title="Volunteer">
   <ul>
     {
       volunteer.map(
@@ -28,13 +28,13 @@ const volunteer = volunteerData as Volunteer[]
                   </div>
 
                   <div>
-                    <time 
+                    <time
                       datetime={startDate}
                       data-title={startDate}>
                         {startYear}
                     </time>
                     {" - "}
-                    <time 
+                    <time
                       datetime={endDate}
                       data-title={endDate}>
                         {endYear}
@@ -53,6 +53,7 @@ const volunteer = volunteerData as Volunteer[]
     }
   </ul>
 </Section>
+}
 
 <style>
   ul {

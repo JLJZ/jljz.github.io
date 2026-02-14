@@ -16,9 +16,12 @@ const projects = projectsData as Projects[]
               <article>
                 <header>
                   <h3>
-                    <a href={url} target="_blank" title={`View the project ${name}`}>
-                      {name}
-                    </a>
+                    {url ?
+                      <a href={url} target="_blank" title={`View the project ${name}`}>
+                        {name}
+                      </a>
+                      : name
+                    }
                     {isActive && <span>•</span>}
                     {github && (
                       <a
@@ -31,7 +34,8 @@ const projects = projectsData as Projects[]
                       </a>
                     )}
                   </h3>
-                  <p>{description}</p>
+
+                  {description.split("\n").map(x => <p>{x}</p>)}
                 </header>
                 <footer>
                   {highlights.map((highlight) => {
@@ -50,7 +54,7 @@ const projects = projectsData as Projects[]
 <style>
   ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(1fr);
     gap: 1rem;
     margin-inline: -16px;
   }

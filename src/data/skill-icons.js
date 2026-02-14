@@ -1,5 +1,5 @@
 export const SKILL_ICON_MAP = {
- 
+
   // Programming Languages
   javascript: "devicon:javascript",
   typescript: "devicon:typescript",
@@ -11,6 +11,7 @@ export const SKILL_ICON_MAP = {
   ruby: "devicon:ruby",
   go: "devicon:go",
   rust: "devicon:rust",
+  lua: "devicon:lua",
 
   // Web Development
   html: 'devicon:html5',
@@ -24,14 +25,26 @@ export const SKILL_ICON_MAP = {
   flutter: "devicon:flutter",
   astro: "devicon:astro",
 
+  //Backend
+  springboot: "devicon:spring",
+  fastapi: "devicon:fastapi",
+  flask: "devicon:flask",
+  expressjs: "devicon:express",
+
   // Tools & Ecosystem
   git: 'devicon:git',
+  gitlab: 'devicon:gitlab',
   github: 'devicon:github',
+  githubactions: 'devicon:githubactions',
+  jetpackcompose: 'devicon:jetpackcompose',
   linux: 'devicon:linux',
   docker: 'devicon:docker',
+  aws: 'devicon:amazonwebservices',
+  android: 'devicon:android',
 
   // Databases
   mysql: 'devicon:mysql',
+  mariadb: 'devicon:mariadb',
   postgresql: 'devicon:postgresql',
   mongodb: 'devicon:mongodb',
   sqlite: 'devicon:sqlite',
@@ -60,7 +73,7 @@ export const SKILL_ICON_MAP = {
   unity: 'devicon:unity',
 
 };
-  
+
 const ALIASES = {
   'c++': 'cplusplus',
   'c#': 'csharp',
@@ -83,4 +96,3 @@ export function getIconName(name) {
 
   return SKILL_ICON_MAP[name] ?? null;
 }
-  
