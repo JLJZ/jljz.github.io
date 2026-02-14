@@ -177,6 +177,12 @@
   ],
   "projects": [
     {
+      "name": "Itch.io Page",
+      "description": "Collection of games and mixed reality simulators released on itch.io.",
+      "url": "https://jinzh.itch.io",
+      "highlights": ["Unity", "C#"]
+    },
+    {
       "name": "Classroom AI Detection Research Tool",
       "description": "Secure full-stack AI-detection benchmarking platform evaluating LLM methodologies across 4 models.\n- Benchmarked precision, recall, and AUROC across multiple LLM detection models.\n- Integrated private LLM inference endpoint.\n- Implemented CI/CD pipelines with automated regression testing.",
       "startDate": "2026-01-01",
@@ -246,12 +252,6 @@
         "Docker",
         "Linux"
       ]
-    },
-    {
-      "name": "Itch.io Page",
-      "description": "Collection of games and mixed reality simulators released on itch.io.",
-      "url": "https://jinzh.itch.io",
-      "highlights": ["Unity", "C#"]
     }
   ]
 }
