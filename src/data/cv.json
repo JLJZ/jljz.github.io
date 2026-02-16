@@ -47,7 +47,7 @@
       "position": "Power Platform Developer",
       "startDate": "2025-05-01",
       "endDate": "2025-08-01",
-      "summary": "- Conducted cross-department stakeholder analysis across 3 HR units and translated legacy workflows into scalable digital processes.\n- Improved integration visibility across 2 legacy systems, optimizing inter-department data consolidation.",
+      "summary": "• Conducted cross-department stakeholder analysis across 3 HR units and translated legacy workflows into scalable digital processes.\n• Improved integration visibility across 2 legacy systems, optimizing inter-department data consolidation.",
       "url": "https://www.dis.gov.sg"
     },
     {
@@ -55,7 +55,7 @@
       "position": "Machine Learning Engineer",
       "startDate": "2024-06-01",
       "endDate": "2024-08-01",
-      "summary": "- Developed in-house news sentiment analysis system processing ~60GB of unstructured text daily using Python, Scikit-learn, Polars, and Streamlit.\n- Automated keyword extraction and reporting workflows, reducing report generation time from 12 hours to 1 hour.\n- Optimised data pipelines by parallelising downloads and ingestion, achieving x5 performance improvement.",
+      "summary": "• Developed in-house news sentiment analysis system processing ~60GB of unstructured text daily using Python, Scikit-learn, Polars, and Streamlit.\n• Automated keyword extraction and reporting workflows, reducing report generation time from 12 hours to 1 hour.\n• Optimised data pipelines by parallelising downloads and ingestion, achieving x5 performance improvement.",
       "url": "https://www.dis.gov.sg"
     },
     {
@@ -63,7 +63,7 @@
       "position": "Mixed Reality Software Developer",
       "startDate": "2023-03-01",
       "endDate": "2023-08-01",
-      "summary": "- Developed AR mobile application using Unity XRTK and C#, achieving 1,000+ downloads and 4.3-star Google Play rating.\n- Implemented asset compression and frame rendering optimisations, stabilizing performance to 60 FPS average and reducing crash rates.",
+      "summary": "• Developed AR mobile application using Unity XRTK and C#, achieving 1,000+ downloads and 4.3-star Google Play rating.\n• Implemented asset compression and frame rendering optimisations, stabilizing performance to 60 FPS average and reducing crash rates.",
       "url": "https://dink.com.sg"
     },
     {
@@ -71,7 +71,7 @@
       "position": "Lead Mixed Reality Software Developer (Intern)",
       "startDate": "2020-10-01",
       "endDate": "2021-02-01",
-      "summary": "- Independently developed MVP ophthalmology simulator for HoloLens 2 using Unity and C#. Final delivery secured further stakeholder collaboration and funding.\n- Designed modular event-driven interaction architecture and managed Agile weekly sprint cycles with 100% milestone adherence.",
+      "summary": "• Independently developed MVP ophthalmology simulator for HoloLens 2 using Unity and C#. Final delivery secured further stakeholder collaboration and funding.\n• Designed modular event-driven interaction architecture and managed Agile weekly sprint cycles with 100% milestone adherence.",
       "url": "https://www.sp.edu.sg/industry"
     }
   ],
