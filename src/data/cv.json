@@ -170,6 +170,7 @@
     },
     {
       "name": "AmazoBank - Cloud Native CRM (SMU)",
+      "url": "https://github.com/JLJZ/amazobank-aws-docker-microservices",
       "description": "AWS cloud-native CRM supporting 100 concurrent users with <5s latency.\n- Architected ECS, RDS, ALB, S3, and Lambda infrastructure.\n- Built OIDC-based federated authentication with Spring Boot and React.\n- Implemented GitHub Actions CI/CD reducing production bugs by 30%.\n- Optimised infrastructure sizing, reducing projected cost by 300%.",
       "startDate": "2025-08-01",
       "endDate": "2025-11-01",
@@ -185,6 +186,7 @@
     },
     {
       "name": "DonDonDevops - Payment Kiosk Webapp (SMU)",
+      "url": "https://github.com/JLJZ/dondondevops-microservices-webapp",
       "description": "Containerised microservices-based payment kiosk system deployed to AWS.\n- Orchestrated FastAPI and Spring Boot services with Docker.\n- Reduced build-test-deploy cycle to under 1 minute.\n- Integrated Stripe webhooks achieving 95% transaction reliability.",
       "startDate": "2025-08-01",
       "endDate": "2025-11-01",
