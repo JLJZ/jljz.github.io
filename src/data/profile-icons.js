@@ -8,7 +8,8 @@ export const PROFILE_ICON_MAP = {
   spotify: 'simple-icons:spotify',
   bluesky: 'simple-icons:bluesky',
   tiktok: 'simple-icons:tiktok',
-  itchio: 'simple-icons:itchdotio'
+  itchio: 'simple-icons:itchdotio',
+  devpost: 'simple-icons:devpost'
 }
 
 const ALIASES = {
