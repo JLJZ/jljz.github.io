@@ -152,7 +152,13 @@
       "name": "Itch.io Page",
       "description": "Collection of games and mixed reality simulators released on itch.io.",
       "url": "https://jinzh.itch.io",
-      "highlights": ["Unity", "C#"]
+      "highlights": ["Games", "XR", "ARVR", "Simulators", "Unity"]
+    },
+    {
+      "name": "Devpost Hackathons",
+      "description": "Hackathon projects on devpost.",
+      "url": "https://devpost.com/jeremy-lim-2023",
+      "highlights": ["Full-Stack"]
     },
     {
       "name": "Classroom AI Detection Research Tool",
