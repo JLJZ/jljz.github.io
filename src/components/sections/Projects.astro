@@ -4,13 +4,18 @@ import Section from "../Section.astro"
 import { projects as projectsData } from "@cv"
 import type { Projects } from "@/data/cv"
 const projects = projectsData as Projects[]
+
+function isGithubLink(link: string): boolean {
+  return URL.parse(link)?.host == "github.com"
+}
+
 ---
 
 <Section title="Projects">
   <ul>
     {
       projects.map(
-        ({ url, description, highlights = [], name, isActive = false, github = "" }) => {
+        ({ url, description, highlights = [], name, isActive = false }) => {
           return (
             <li>
               <article>
@@ -18,21 +23,15 @@ const projects = projectsData as Projects[]
                   <h3>
                     {url ?
                       <a href={url} target="_blank" title={`View the project ${name}`}>
-                        {name} ◳
+                        {name} {
+                          isGithubLink(url)
+                            ? <Icon name="simple-icons:github" class="icon" />
+                            : '◳'
+                        }
                       </a>
                       : name
                     }
                     {isActive && <span>• in-progress</span>}
-                    {github && (
-                      <a
-                        class="github-code-link"
-                        href={github}
-                        target="_blank"
-                        title={`View the source code of the project ${name}`}
-                      >
-                        <Icon name="simple-icons:github" class="icon" />
-                      </a>
-                    )}
                   </h3>
 
                   {description && description.split("\n").map(x => <p>{x}</p>)}
@@ -57,6 +56,10 @@ const projects = projectsData as Projects[]
     grid-template-columns: repeat(1fr);
     gap: 1rem;
     margin-inline: -16px;
+  }
+
+  icon {
+    align-items:
   }
 
   article {
