@@ -1,13 +1,25 @@
 ---
-import Section from "../Section.astro"
-import { basics as basicsData } from "@cv"
-import type { Basics } from "@/data/cv"
-const basics = basicsData as Basics
-const { summary } = basics
+import Section from "../Section.astro";
+import { basics as basicsData } from "@cv";
+import type { Basics } from "@/data/cv";
+const basics = basicsData as Basics;
+const { summary } = basics;
 ---
 
 <Section title="About Me">
-  <p>
-    {summary}
-  </p>
+  {
+    summary &&
+      summary.split("\n").map((paragraph) => (
+        <p>
+          {paragraph}
+          <br />
+        </p>
+      ))
+  }
 </Section>
+
+<style>
+  p {
+    margin-bottom: 1em;
+  }
+</style>
